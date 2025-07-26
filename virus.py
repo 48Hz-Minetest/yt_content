@@ -6,7 +6,7 @@ import turtle as tl
 screen = tl.Screen() # создание сцены
 screen.setup(height=600, width=400) # размер сцены (x, y)
 screen.bgcolor("black") # цвет заднего фона
-screen.title("Круги") # заголовок сцены
+screen.title("Полосы") # заголовок сцены
 
 pen = tl.Turtle() # создание пера
 pen.color(random.choice(["blue", "green", "lime", "yellow", "purple", "red", "lightblue"])) # выбор цвета кончика на рандом
